@@ -1,0 +1,22 @@
+@model LoginModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <form asp-controller="Login" asp-action="Login"> 
+    <input asp-for="Email"/>
+    <input asp-for="Password"/>
+    <button type="submit">but</button>
+    </form>
+</div>
+</body>
+</html>

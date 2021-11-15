@@ -1,0 +1,25 @@
+@model RegisterModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <form asp-action="Register" asp-controller="User">
+    <input asp-for="Email"/>
+    <input asp-for="Name"/>
+    <input asp-for="Surname"/>
+    <input asp-for="Password"/>
+    <input asp-for="ConfirmPassword"/>
+    <button type="submit">but</button>
+    </form>
+</div>
+</body>
+</html>
